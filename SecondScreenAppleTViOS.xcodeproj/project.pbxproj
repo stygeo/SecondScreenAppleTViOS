@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DC86D9179B395100E78FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC86D8179B395100E78FDE /* UIKit.framework */; };
+		00DC86DB179B395100E78FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC86DA179B395100E78FDE /* Foundation.framework */; };
+		00DC86DD179B395100E78FDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DC86DC179B395100E78FDE /* CoreGraphics.framework */; };
+		00DC86E3179B395100E78FDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00DC86E1179B395100E78FDE /* InfoPlist.strings */; };
+		00DC86E5179B395100E78FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC86E4179B395100E78FDE /* main.m */; };
+		00DC86E9179B395100E78FDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC86E8179B395100E78FDE /* AppDelegate.m */; };
+		00DC86EB179B395100E78FDE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DC86EA179B395100E78FDE /* Default.png */; };
+		00DC86ED179B395100E78FDE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DC86EC179B395100E78FDE /* Default@2x.png */; };
+		00DC86EF179B395100E78FDE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DC86EE179B395100E78FDE /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00DC86D5179B395100E78FDE /* SecondScreenAppleTViOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondScreenAppleTViOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DC86D8179B395100E78FDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00DC86DA179B395100E78FDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00DC86DC179B395100E78FDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00DC86E0179B395100E78FDE /* SecondScreenAppleTViOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecondScreenAppleTViOS-Info.plist"; sourceTree = "<group>"; };
+		00DC86E2179B395100E78FDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00DC86E4179B395100E78FDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00DC86E6179B395100E78FDE /* SecondScreenAppleTViOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondScreenAppleTViOS-Prefix.pch"; sourceTree = "<group>"; };
+		00DC86E7179B395100E78FDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00DC86E8179B395100E78FDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00DC86EA179B395100E78FDE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		00DC86EC179B395100E78FDE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		00DC86EE179B395100E78FDE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DC86D2179B395100E78FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DC86D9179B395100E78FDE /* UIKit.framework in Frameworks */,
+				00DC86DB179B395100E78FDE /* Foundation.framework in Frameworks */,
+				00DC86DD179B395100E78FDE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DC86CC179B395100E78FDE = {
+			isa = PBXGroup;
+			children = (
+				00DC86DE179B395100E78FDE /* SecondScreenAppleTViOS */,
+				00DC86D7179B395100E78FDE /* Frameworks */,
+				00DC86D6179B395100E78FDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00DC86D6179B395100E78FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00DC86D5179B395100E78FDE /* SecondScreenAppleTViOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00DC86D7179B395100E78FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00DC86D8179B395100E78FDE /* UIKit.framework */,
+				00DC86DA179B395100E78FDE /* Foundation.framework */,
+				00DC86DC179B395100E78FDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00DC86DE179B395100E78FDE /* SecondScreenAppleTViOS */ = {
+			isa = PBXGroup;
+			children = (
+				00DC86E7179B395100E78FDE /* AppDelegate.h */,
+				00DC86E8179B395100E78FDE /* AppDelegate.m */,
+				00DC86DF179B395100E78FDE /* Supporting Files */,
+			);
+			path = SecondScreenAppleTViOS;
+			sourceTree = "<group>";
+		};
+		00DC86DF179B395100E78FDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00DC86E0179B395100E78FDE /* SecondScreenAppleTViOS-Info.plist */,
+				00DC86E1179B395100E78FDE /* InfoPlist.strings */,
+				00DC86E4179B395100E78FDE /* main.m */,
+				00DC86E6179B395100E78FDE /* SecondScreenAppleTViOS-Prefix.pch */,
+				00DC86EA179B395100E78FDE /* Default.png */,
+				00DC86EC179B395100E78FDE /* Default@2x.png */,
+				00DC86EE179B395100E78FDE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00DC86D4179B395100E78FDE /* SecondScreenAppleTViOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DC86F8179B395100E78FDE /* Build configuration list for PBXNativeTarget "SecondScreenAppleTViOS" */;
+			buildPhases = (
+				00DC86D1179B395100E78FDE /* Sources */,
+				00DC86D2179B395100E78FDE /* Frameworks */,
+				00DC86D3179B395100E78FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondScreenAppleTViOS;
+			productName = SecondScreenAppleTViOS;
+			productReference = 00DC86D5179B395100E78FDE /* SecondScreenAppleTViOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00DC86CD179B395100E78FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = example;
+			};
+			buildConfigurationList = 00DC86D0179B395100E78FDE /* Build configuration list for PBXProject "SecondScreenAppleTViOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00DC86CC179B395100E78FDE;
+			productRefGroup = 00DC86D6179B395100E78FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00DC86D4179B395100E78FDE /* SecondScreenAppleTViOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DC86D3179B395100E78FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DC86E3179B395100E78FDE /* InfoPlist.strings in Resources */,
+				00DC86EB179B395100E78FDE /* Default.png in Resources */,
+				00DC86ED179B395100E78FDE /* Default@2x.png in Resources */,
+				00DC86EF179B395100E78FDE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DC86D1179B395100E78FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DC86E5179B395100E78FDE /* main.m in Sources */,
+				00DC86E9179B395100E78FDE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00DC86E1179B395100E78FDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DC86E2179B395100E78FDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00DC86F6179B395100E78FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00DC86F7179B395100E78FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00DC86F9179B395100E78FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondScreenAppleTViOS/SecondScreenAppleTViOS-Prefix.pch";
+				INFOPLIST_FILE = "SecondScreenAppleTViOS/SecondScreenAppleTViOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00DC86FA179B395100E78FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondScreenAppleTViOS/SecondScreenAppleTViOS-Prefix.pch";
+				INFOPLIST_FILE = "SecondScreenAppleTViOS/SecondScreenAppleTViOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DC86D0179B395100E78FDE /* Build configuration list for PBXProject "SecondScreenAppleTViOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DC86F6179B395100E78FDE /* Debug */,
+				00DC86F7179B395100E78FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DC86F8179B395100E78FDE /* Build configuration list for PBXNativeTarget "SecondScreenAppleTViOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DC86F9179B395100E78FDE /* Debug */,
+				00DC86FA179B395100E78FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00DC86CD179B395100E78FDE /* Project object */;
+}
